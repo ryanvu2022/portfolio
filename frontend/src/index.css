@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --font-base: "DM Sans", sans-serif;
+
+  --primary-color:rgb(231,240,250);
+  --secondary-color:rgb(0,128,55);
+  --black-color:rgb(0,0,0);
+  --lightGray-color:rgb(229,229,229);
+  --gray-color:rgb(122,129,141);
+  --white-color:rgb(255,255,255);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}

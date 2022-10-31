@@ -101,7 +101,7 @@
                transform-style: preserve-3d;
                padding: 20px;
                background: -webkit-linear-gradient(65deg, 	
-               rgb(19,143,73), rgb(1,77,34));
+               rgb(19,143,73), rgb(14, 109, 56));
                transform: translateZ(100px);
                color: var(--white-color);
                border-radius: 0.5rem;
@@ -146,7 +146,7 @@
                      }
 
                      &:hover {
-                        background-color: rgb(16,113,58);
+                        background-color: rgb(14, 109, 56);
                      }
                   }
                }

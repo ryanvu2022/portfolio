@@ -96,6 +96,7 @@
             transform-style: preserve-3d;
             transform: rotateY(180deg);
             border-radius: 0.5rem;
+            font-family: 'Lato', sans-serif;
 
             div {
                transform-style: preserve-3d;
@@ -111,7 +112,6 @@
                   text-align: center;
                   color: var(--white-color);
                   font-size: 1.5rem;
-                  font-weight: 700;
                }
 
                p {

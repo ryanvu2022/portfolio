@@ -54,12 +54,12 @@ const Work = () => {
           animate={animateCard}
           transition={{ duration: 0.5, delayChildren: 0.5 }}
           className="portfolio"
-        >
+      >
         {filterWork.map((work, index) => (
           <div className="project" key={index}>
             <div className="body">
                 <div className="front">
-                  <img src={urlFor(work.imgUrl)} alt={work.name}/>  
+                  <img src={urlFor(work.imgUrl).url()} alt={work.name}/>  
                 </div>
                 <div className="back">
                   <div>
@@ -75,7 +75,7 @@ const Work = () => {
             </div>
           </div>
         ))}
-        </motion.div>
+      </motion.div>
     </>
   )
 }

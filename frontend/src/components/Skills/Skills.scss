@@ -29,26 +29,6 @@
    }
 }
 
-.quote {
-   flex: 1;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   width: 80%;
-   margin: 0 auto 2rem;
-
-   @media screen and (min-width: 2000px) {
-      font-size: 1.2rem;
-   }
-
-   @media screen and (max-width: 768px) {
-      width: 100%;
-   }
-
-}
-
 .item {
    flex-direction: column;
    text-align: center;

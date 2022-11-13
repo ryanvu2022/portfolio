@@ -29,7 +29,7 @@ const Skills = () => {
               key={skill.name}
             >
               <div className="app__flex">
-                <img src={urlFor(skill.icon)} alt={skill.name} />
+                <img src={urlFor(skill.icon).url()} alt={skill.name} />
               </div>
 
               <p className="p-text">{skill.name}</p>

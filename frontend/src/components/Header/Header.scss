@@ -45,10 +45,10 @@
    align-items: flex-end;
    flex-direction: column;
 
-   .badge-cmp, .tag-cmp {
+   .badge-cmp, .tag-cmp, .resume_cmp {
       padding: 1rem 2rem;
       border: var(--white-color);
-      border-radius: 15px;
+      border-radius: 0.5rem;
       flex-direction: row;
       width: auto;
       box-shadow: 0 0 20px rgba(0,0,0,0.1);
@@ -64,13 +64,13 @@
    }
 
    .tag-cmp {
-      margin-top: 2rem;
+      margin-top: 1.5rem;
 
       p {
          width: 100%;
          text-transform: uppercase;
          text-align: center;
-         letter-spacing: 0.7px;
+         letter-spacing: 0.05rem;
          font-size: 1rem;
          color: var(--gray-color);
       }
@@ -87,6 +87,27 @@
    @media screen and (max-width: 1200px) {
       justify-content: flex-start;
       align-items: flex-start;
+   }
+}
+
+.resume {
+   text-decoration: none;
+   font-size: 1.1rem;
+   letter-spacing: 0.03rem;
+   cursor: pointer;
+   padding: 0.7rem 1.6rem;
+   color: var(--secondary-color);
+   border: 1.5px solid var(--secondary-color);
+   border-radius: 0.5rem;
+   width: auto;
+   box-shadow: 0 0 20px rgba(0,0,0,0.1);
+   background-color: var(--light-white-color);
+   margin-top: 1.5rem;
+
+   &:hover {
+      transition: all 0.3s ease-in-out;
+      color: var(--white-color);
+      background-color: var(--secondary-color);
    }
 }
 

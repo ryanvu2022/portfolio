@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { images } from "../../constants";
 import "./Header.scss";
 import AppWrap from "../../wrapper/AppWrap";
+import resume from "../../assets/resume/Ryan-Vu-Resume.pdf"
 
 const scaleVariants = {
   whileInView: {
@@ -31,6 +32,12 @@ const Header = () => {
           <div className="tag-cmp app__flex">
               <p>Software Developer</p>
           </div>
+
+          
+            <a href={resume} className="resume">
+              My Resume
+            </a>
+          
         </div>
       </motion.div>
 

@@ -55,6 +55,14 @@
       background-color: var(--light-white-color);
    }
 
+   .hello {
+      text-align: left;
+      position: relative;
+      left: 0.25rem;
+      color: var(--gray-color);
+      letter-spacing: 0.5px;
+   }
+
    .tag-cmp {
       margin-top: 2rem;
 
@@ -64,6 +72,7 @@
          text-align: center;
          letter-spacing: 0.7px;
          font-size: 1rem;
+         color: var(--gray-color);
       }
    }
 

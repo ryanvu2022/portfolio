@@ -5,6 +5,7 @@ import MotionWrap from "../../wrapper/MotionWrap";
 import { client } from "../../client";
 import { BsGithub, BsLinkedin, BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { AiOutlineCopyrightCircle } from "react-icons/ai"
 
 const Footer = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -84,7 +85,12 @@ const Footer = () => {
                <BsGithub />
             </a>
          </div>
-      </div>     
+      </div>   
+
+      <div className="copyright">
+        <p className="p-text"><span><AiOutlineCopyrightCircle /></span> {new Date().getFullYear()} Ryan Vu</p>
+        <p className="p-text">All rights reserved</p>
+      </div>  
     </>
   )
 }

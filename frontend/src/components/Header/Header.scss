@@ -1,17 +1,6 @@
 #home {
    position: relative;
-   background: url('../../assets/bgIMG.png');
-   background-size: cover;
-   background-repeat: repeat;
-   background-position: center;
-
-   .app__wrapper {
-      padding: 0;
-
-      .copyright {
-         display: none;
-      }
-   }
+   background-color: rgb(233, 240, 247);
 }
 
 .app__header {
@@ -63,6 +52,7 @@
       flex-direction: row;
       width: auto;
       box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      background-color: var(--light-white-color);
    }
 
    .tag-cmp {

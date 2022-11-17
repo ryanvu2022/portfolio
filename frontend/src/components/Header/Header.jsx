@@ -29,7 +29,10 @@ const Header = () => {
           </div>
 
           <div className="tag-cmp app__flex">
-              <p className="p-text">Full Stack Developer</p>
+              <p className="p-text">Front End Focused 
+                <br/> With Full Stack Experience 
+                <br/> <span style={{fontSize: "1.2rem", fontWeight: "bold"}}>Software Developer</span>
+              </p>
           </div>
         </div>
       </motion.div>
@@ -39,7 +42,7 @@ const Header = () => {
       </motion.div>
 
       <motion.div variant={scaleVariants} whileInView={scaleVariants.whileInView} className="circles">
-        {[images.python, images.react, images.sass].map((circle, index) => (
+        {[images.python, images.react, images.node].map((circle, index) => (
           <div className="app__flex" key={`circle-${index}`}>
             <img src={circle} alt="circle"/>
           </div>

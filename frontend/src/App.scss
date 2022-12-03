@@ -134,6 +134,30 @@
          text-decoration: none;
       }
 
+      a[data-tool-tip] {
+         position: relative;
+      }
+
+      a[data-tool-tip]::after {
+         content: attr(data-tool-tip);
+         display: block;
+         position: absolute;
+         padding: 0.3rem 0.6rem;
+         color: var(--secondary-color);
+         border-radius: 0.5rem;
+         font-size: 0.9em;
+         left: 15px;
+         bottom: 0;
+         white-space: nowrap;
+         transform: scale(0);
+         transition: transform ease-out 150ms, bottom ease-out 150ms;
+      }
+
+      a[data-tool-tip]:hover::after {
+         transform: scale(1);
+         bottom: 100%;
+      }
+
       svg {
          width: 15px;
          height: 15px;
